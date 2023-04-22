@@ -1,0 +1,51 @@
+body{
+    background: cyan;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+@media (max-width: 425px){
+    body{
+        background: firebrick;
+        content: "Screen size: 425px";
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 425px){
+    body{
+        background: deepskyblue;
+        content: "Screen size: 768px";
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    body{
+        background: darkkhaki;
+        content: "Screen size: 1024px";
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1024px){
+    body{
+        background: darkgreen;
+        content: "Screen size: 1440px";
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+}
